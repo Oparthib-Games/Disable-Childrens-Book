@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: e5e655440df88f7419f28c781275425c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 200
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Layer 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 811
+      y: 3962
+      width: 336
+      height: 79
+    spriteID: 470dbe5663780854a9caff6f5bdd57eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 360, y: 1449}
+  - name: Cloud 01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3702
+      width: 799
+      height: 320
+    spriteID: 2cc653de34d0ea4408d80a2107242ab9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -240, y: 1317}
+  - name: Layer 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2419
+      y: 193
+      width: 538
+      height: 188
+    spriteID: 5d2ea84141d6eea42b139bac80277d25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2244, y: -1436}
+  - name: Layer 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3283
+      y: 193
+      width: 513
+      height: 192
+    spriteID: b37a59550972d5a4f996c101edc82082
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2677, y: -591}
+  - name: Water Wave
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2419
+      y: 4
+      width: 617
+      height: 181
+    spriteID: 8d55112f99966364c9555d883ba11450
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1774, y: -30}
+  - name: Cloud 01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 2150
+      width: 316
+      height: 195
+    spriteID: 16af76934caf6344cba6e4a59d881742
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1193, y: -16}
+  - name: Cloud 02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 2353
+      width: 316
+      height: 195
+    spriteID: 8667cd24d4c2ca6459b68e7d3028c188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 769, y: 480}
+  - name: Duck Up
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 1899
+      width: 323
+      height: 243
+    spriteID: 877808eb711838647946700b11d6061f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1123, y: -87}
+  - name: Girl Up
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 1229
+      width: 587
+      height: 662
+    spriteID: c7585d3b544416e458e8d22909253126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 656, y: 54}
+  - name: Girl Down
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 542
+      width: 611
+      height: 679
+    spriteID: a7457f4a1f1ab4145b317a962b2c3c2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1173, y: 41}
+  - name: Cloud 03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 811
+      y: 3702
+      width: 409
+      height: 252
+    spriteID: 9413d877390ff404e98e16fbcb2d8afa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5, y: 1578}
+  - name: Duck Down
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2965
+      y: 193
+      width: 310
+      height: 323
+    spriteID: 1f8387f5c8779b444b39b4f9ce4f451d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2095, y: 50}
+  - name: Water
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 4
+      width: 1137
+      height: 530
+    spriteID: 03e43428d26bdb043b246fd20fbc9489
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1149, y: 4}
+  - name: Yellow Cloud
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2836
+      width: 1262
+      height: 858
+    spriteID: f79a18b6ec8527e48bf342c78a16ecf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2525}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1262
+      height: 2824
+    spriteID: 507821ba9e308604681585d035106b82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Layer 13
+    spriteName: Layer 13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 470dbe5663780854a9caff6f5bdd57eb
+    layerID: 25
+    mosaicPosition: {x: 811, y: 3962}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cloud 01
+    spriteName: Cloud 01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2cc653de34d0ea4408d80a2107242ab9
+    layerID: 27
+    mosaicPosition: {x: 4, y: 3702}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 16
+    spriteName: Layer 16
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5d2ea84141d6eea42b139bac80277d25
+    layerID: 32
+    mosaicPosition: {x: 2419, y: 193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 12
+    spriteName: Layer 12
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b37a59550972d5a4f996c101edc82082
+    layerID: 22
+    mosaicPosition: {x: 3283, y: 193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water Wave
+    spriteName: Water Wave
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8d55112f99966364c9555d883ba11450
+    layerID: 12
+    mosaicPosition: {x: 2419, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cloud 01
+    spriteName: Cloud 01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 16af76934caf6344cba6e4a59d881742
+    layerID: 16
+    mosaicPosition: {x: 1274, y: 2150}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cloud 02
+    spriteName: Cloud 02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8667cd24d4c2ca6459b68e7d3028c188
+    layerID: 15
+    mosaicPosition: {x: 1274, y: 2353}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Duck Up
+    spriteName: Duck Up
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 877808eb711838647946700b11d6061f
+    layerID: 17
+    mosaicPosition: {x: 1274, y: 1899}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Girl Up
+    spriteName: Girl Up
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c7585d3b544416e458e8d22909253126
+    layerID: 18
+    mosaicPosition: {x: 1274, y: 1229}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Girl Down
+    spriteName: Girl Down
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a7457f4a1f1ab4145b317a962b2c3c2b
+    layerID: 19
+    mosaicPosition: {x: 1274, y: 542}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cloud 03
+    spriteName: Cloud 03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9413d877390ff404e98e16fbcb2d8afa
+    layerID: 31
+    mosaicPosition: {x: 811, y: 3702}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Duck Down
+    spriteName: Duck Down
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1f8387f5c8779b444b39b4f9ce4f451d
+    layerID: 20
+    mosaicPosition: {x: 2965, y: 193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water
+    spriteName: Water
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 03e43428d26bdb043b246fd20fbc9489
+    layerID: 8
+    mosaicPosition: {x: 1274, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Yellow Cloud
+    spriteName: Yellow Cloud
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f79a18b6ec8527e48bf342c78a16ecf0
+    layerID: 3
+    mosaicPosition: {x: 4, y: 2836}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 507821ba9e308604681585d035106b82
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

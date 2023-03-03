@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: be9b9bbf3f9e75043b72eab50fbd3099
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 200
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Text Down
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1658
+      y: 2714
+      width: 430
+      height: 291
+    spriteID: 9b3a48e2615489740929f8c682cf2d12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1251, y: 2256}
+  - name: Text Up
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1658
+      y: 3013
+      width: 473
+      height: 197
+    spriteID: 8d7fd7f3b0e07344dbea7ba5f7eae65d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 923}
+  - name: Grass 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1896
+      y: 3478
+      width: 274
+      height: 89
+    spriteID: 0ea4aa32b5bcf684887e2e1f614e274c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 989, y: 3316}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2333
+      y: 2714
+      width: 177
+      height: 220
+    spriteID: dcca5c3260c3e2641b02a95b057f4f88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1945, y: 1929}
+  - name: Grass 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1896
+      y: 3308
+      width: 358
+      height: 77
+    spriteID: e4f2447cf51a9b94d80ff4b25fb96d27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1440, y: 2327}
+  - name: Grass 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1896
+      y: 3393
+      width: 690
+      height: 678
+    spriteID: ca45e6a4a19fa154cabe427aa128fc90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1819, y: 3037}
+  - name: Hash
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1658
+      y: 3218
+      width: 230
+      height: 239
+    spriteID: 2e5a49c2a7e196743bc9c01416600d03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 768, y: 3024}
+  - name: Grass Big
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 1905
+      width: 1262
+      height: 400
+    spriteID: 2e1911a67c5442140b1283f39bbae280
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1270, y: 1905}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1896
+      y: 3218
+      width: 361
+      height: 82
+    spriteID: 0b40c285ba2905d459837e9738089dea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1448, y: 714}
+  - name: Title Cloud
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1658
+      y: 2386
+      width: 799
+      height: 320
+    spriteID: 46039749385d21e4c85b73462f9d6b3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1430, y: -2}
+  - name: Cloud
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2139
+      y: 3013
+      width: 268
+      height: 166
+    spriteID: 1b45c05fe2a53d7428395cb8e68fec88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2017, y: 991}
+  - name: Girl
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 2386
+      width: 376
+      height: 706
+    spriteID: 9d4f5515d89932a4c969851b02395df3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1228, y: 1561}
+  - name: Ground
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2836
+      width: 1262
+      height: 1147
+    spriteID: 115ae2e762d6c0a47aa90fa5698a8f0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2836}
+  - name: Boy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 3100
+      width: 356
+      height: 623
+    spriteID: dd203d78e9e37d44d927a949153a8071
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 431, y: 2092}
+  - name: Checken Up
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2096
+      y: 2714
+      width: 229
+      height: 263
+    spriteID: 6f4d58400ab1bf245986dc3f0ec3a934
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1755, y: 957}
+  - name: Chicken Down
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 3731
+      width: 241
+      height: 329
+    spriteID: f6fb2ece249ab5a42955f86ccfc84dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 539, y: 2673}
+  - name: Ground Back
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1274
+      y: 4
+      width: 1262
+      height: 1893
+    spriteID: 16a8ec40d30ee0d4da5176c8bcaa26b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1274, y: -21}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1262
+      height: 2824
+    spriteID: eda50d3a6ddfb544ea342a127069b8ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Text Down
+    spriteName: Text Down
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b3a48e2615489740929f8c682cf2d12
+    layerID: 94
+    mosaicPosition: {x: 1658, y: 2714}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Text Up
+    spriteName: Text Up
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8d7fd7f3b0e07344dbea7ba5f7eae65d
+    layerID: 97
+    mosaicPosition: {x: 1658, y: 3013}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grass 1
+    spriteName: Grass 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0ea4aa32b5bcf684887e2e1f614e274c
+    layerID: 93
+    mosaicPosition: {x: 1896, y: 3478}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dcca5c3260c3e2641b02a95b057f4f88
+    layerID: 99
+    mosaicPosition: {x: 2333, y: 2714}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grass 2 copy
+    spriteName: Grass 2 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e4f2447cf51a9b94d80ff4b25fb96d27
+    layerID: 98
+    mosaicPosition: {x: 1896, y: 3308}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grass 2
+    spriteName: Grass 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ca45e6a4a19fa154cabe427aa128fc90
+    layerID: 85
+    mosaicPosition: {x: 1896, y: 3393}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Hash
+    spriteName: Hash
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2e5a49c2a7e196743bc9c01416600d03
+    layerID: 84
+    mosaicPosition: {x: 1658, y: 3218}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Grass Big
+    spriteName: Grass Big
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2e1911a67c5442140b1283f39bbae280
+    layerID: 71
+    mosaicPosition: {x: 1274, y: 1905}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b40c285ba2905d459837e9738089dea
+    layerID: 96
+    mosaicPosition: {x: 1896, y: 3218}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Title Cloud
+    spriteName: Title Cloud
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 46039749385d21e4c85b73462f9d6b3c
+    layerID: 95
+    mosaicPosition: {x: 1658, y: 2386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cloud
+    spriteName: Cloud
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1b45c05fe2a53d7428395cb8e68fec88
+    layerID: 73
+    mosaicPosition: {x: 2139, y: 3013}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Girl
+    spriteName: Girl
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d4f5515d89932a4c969851b02395df3
+    layerID: 81
+    mosaicPosition: {x: 1274, y: 2386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ground
+    spriteName: Ground
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 115ae2e762d6c0a47aa90fa5698a8f0d
+    layerID: 72
+    mosaicPosition: {x: 4, y: 2836}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boy
+    spriteName: Boy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd203d78e9e37d44d927a949153a8071
+    layerID: 80
+    mosaicPosition: {x: 1274, y: 3100}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Checken Up
+    spriteName: Checken Up
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6f4d58400ab1bf245986dc3f0ec3a934
+    layerID: 77
+    mosaicPosition: {x: 2096, y: 2714}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Chicken Down
+    spriteName: Chicken Down
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f6fb2ece249ab5a42955f86ccfc84dd8
+    layerID: 76
+    mosaicPosition: {x: 1274, y: 3731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ground Back
+    spriteName: Ground Back
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 16a8ec40d30ee0d4da5176c8bcaa26b5
+    layerID: 70
+    mosaicPosition: {x: 1274, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eda50d3a6ddfb544ea342a127069b8ee
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
