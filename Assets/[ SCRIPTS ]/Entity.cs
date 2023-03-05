@@ -18,12 +18,12 @@ public class Entity : MonoBehaviour
     {
         if(isStartScaling)
         {
-            float time = Time.time * timeMultiplier;
-            float math = Mathf.Sin(time) / scaleMultiplier;
+            //float time = Time.time * timeMultiplier;
+            //float math = Mathf.Sin(time) / scaleMultiplier;
 
-            Vector3 vec = new Vector3(1, 1, 1) * (math + scaleAddition);
+            //Vector3 vec = new Vector3(1, 1, 1) * (math + scaleAddition);
 
-            transform.localScale = vec;
+            //transform.localScale = vec;
         }
     }
 

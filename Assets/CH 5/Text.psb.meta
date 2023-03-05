@@ -99,7 +99,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 5249
+      y: 4
       width: 3861
       height: 1967
     spriteID: f1b96e3035a905244994f3d65daeba1e
@@ -111,28 +111,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -269, y: 2245}
-  - name: Layer 0
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 5237
-      height: 5237
-    spriteID: b1d0b50455979c045b502ef1df83418a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: -269, y: -3000}
   characterData:
     bones: []
     parts: []
@@ -169,7 +148,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: f1b96e3035a905244994f3d65daeba1e
     layerID: 5
-    mosaicPosition: {x: 4, y: 5249}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -181,8 +160,8 @@ ScriptedImporter:
     layerID: 4
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   generateGOHierarchy: 0
