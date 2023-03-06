@@ -10,15 +10,35 @@ public class MainScript : MonoBehaviour
     public Color textHighlightColor;
     public Entity[] entities;
     public AudioClip tapEntityAudioClip;
+    public string nextSceneName;
+
+    public float sceneLifespan = 3f;
+    public GameObject canvasContainer;
+    public bool isQuesType;
 
     void Start()
     {
         isPlayingClip = false;
+        if(canvasContainer == null)
+        {
+            Debug.LogError("canvasContainer NOT FOUND");
+        }
+        if(!isQuesType)
+        {
+            StartCoroutine(CountSceneLifespan());
+        }
     }
 
     void Update()
     {
         
+    }
+
+    IEnumerator CountSceneLifespan()
+    {
+        yield return new WaitForSeconds(sceneLifespan);
+
+        canvasContainer.SetActive(true);
     }
 
     public void highlightText(int index)
@@ -53,5 +73,17 @@ public class MainScript : MonoBehaviour
     public void stopEntityScalling(int index)
     {
         entities[index].setIsStartScaling(false);
+    }
+
+    public void LoadNextScene()
+    {
+        if(nextSceneName != null)
+        {
+            SceneHandler.ChangeScene(nextSceneName);
+        }
+        else
+        {
+            Debug.LogError("Next scene name not set!!");
+        }
     }
 }

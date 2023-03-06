@@ -15,10 +15,13 @@ public class QuesManager : MonoBehaviour
     AudioClip tapEntityAudioClip;
     new Camera camera;
 
+    MainScript mainScript;
+
     void Start()
     {
         camera = Camera.main;
-        tapEntityAudioClip = GetComponent<MainScript>().tapEntityAudioClip;
+        mainScript = GetComponent<MainScript>();
+        tapEntityAudioClip = mainScript.tapEntityAudioClip;
 
         if (tapEntityAudioClip == null)
         {
@@ -82,6 +85,7 @@ public class QuesManager : MonoBehaviour
         else
         {
             Debug.Log("There are not further question.");
+            mainScript.LoadNextScene();
         }
     }
 }
