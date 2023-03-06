@@ -8,6 +8,9 @@ public class Entity : MonoBehaviour
     public float scaleAddition = 2;
     public float scaleMultiplier = 3;
     public float timeMultiplier = 2;
+    public bool isQuesType;
+
+    
 
     void Start()
     {
@@ -30,5 +33,22 @@ public class Entity : MonoBehaviour
     public void setIsStartScaling(bool status)
     {
         isStartScaling = status;
+    }
+
+    private void OnMouseDown()
+    {
+        if(isQuesType)
+        {
+            Question question = this.transform.parent.GetComponent<Question>();
+
+            if(question != null)
+            {
+                question.Answering(this);
+            } 
+            else
+            {
+                Debug.LogError("Something is terribly wrong!!");
+            }
+        }
     }
 }

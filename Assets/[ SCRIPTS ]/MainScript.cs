@@ -9,6 +9,7 @@ public class MainScript : MonoBehaviour
     public SpriteRenderer[] spriteRenderers;
     public Color textHighlightColor;
     public Entity[] entities;
+    public AudioClip tapEntityAudioClip;
 
     void Start()
     {
