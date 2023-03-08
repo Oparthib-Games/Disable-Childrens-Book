@@ -10,17 +10,29 @@ public class Entity : MonoBehaviour
     public float timeMultiplier = 2;
     public bool isQuesType;
 
+    Animator ANIM;
+
     
 
-    void Start()
+    void Awake()
     {
-        
+        ANIM = GetComponent<Animator>();
+        if(ANIM != null)
+        {
+            ANIM.enabled = false;
+            //this.gameObject.SetActive(false);
+        }
     }
 
     void Update()
     {
         if(isStartScaling)
         {
+            if(ANIM != null)
+            {
+                ANIM.enabled = true;
+            }
+
             //float time = Time.time * timeMultiplier;
             //float math = Mathf.Sin(time) / scaleMultiplier;
 
@@ -28,11 +40,23 @@ public class Entity : MonoBehaviour
 
             //transform.localScale = vec;
         }
+        else
+        {
+            if (ANIM != null)
+            {
+                ANIM.enabled = false;
+            }
+        }
     }
 
     public void setIsStartScaling(bool status)
     {
         isStartScaling = status;
+
+        if(status == true)
+        {
+            this.gameObject.SetActive(true);
+        }
     }
 
     private void OnMouseDown()
