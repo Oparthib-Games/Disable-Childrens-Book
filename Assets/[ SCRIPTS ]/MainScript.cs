@@ -16,8 +16,13 @@ public class MainScript : MonoBehaviour
     public GameObject canvasContainer;
     public bool isQuesType;
 
+    new Camera camera;
+
+    public AudioClip[] clips;
+
     void Start()
     {
+        camera = Camera.main;
         isPlayingClip = false;
         if(canvasContainer == null)
         {
@@ -85,5 +90,10 @@ public class MainScript : MonoBehaviour
         {
             Debug.LogError("Next scene name not set!!");
         }
+    }
+
+    public void PlayAudioClip(int index)
+    {
+        AudioSource.PlayClipAtPoint(clips[index], camera.transform.position);
     }
 }
