@@ -43,13 +43,22 @@ public class TextScript : MonoBehaviour
         PlayTextClip();
         MainScript.isPlayingClip = true;
 
-        Color old_color = spriteRenderer.color;
+        Color old_color = Color.black;
 
-        spriteRenderer.color = tapColor;
+        if (spriteRenderer != null)
+        {
+            old_color = spriteRenderer.color;
+
+            spriteRenderer.color = tapColor;
+        }
 
         yield return new WaitForSeconds(clipLength);
 
-        spriteRenderer.color = old_color;
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = old_color;
+        }
+
         MainScript.isPlayingClip = false;
     }
 
