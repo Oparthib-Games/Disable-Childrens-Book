@@ -10,10 +10,9 @@ public class MainScript : MonoBehaviour
     public Color textHighlightColor;
     public Entity[] entities;
     public AudioClip tapEntityAudioClip;
-    public string nextSceneName;
 
     public float sceneLifespan = 3f;
-    public GameObject canvasContainer;
+    GameObject canvasContainer;
     public bool isQuesType;
 
     new Camera camera;
@@ -26,7 +25,7 @@ public class MainScript : MonoBehaviour
         isPlayingClip = false;
         if(canvasContainer == null)
         {
-            Debug.LogError("canvasContainer NOT FOUND");
+            Debug.LogWarning("canvasContainer NOT FOUND");
         }
         if(!isQuesType)
         {
@@ -80,16 +79,9 @@ public class MainScript : MonoBehaviour
         entities[index].setIsStartScaling(false);
     }
 
-    public void LoadNextScene()
+    public void ReloadCurrentScene()
     {
-        if(nextSceneName != null)
-        {
-            SceneHandler.ChangeScene(nextSceneName);
-        }
-        else
-        {
-            Debug.LogError("Next scene name not set!!");
-        }
+
     }
 
     public void PlayAudioClip(int index)

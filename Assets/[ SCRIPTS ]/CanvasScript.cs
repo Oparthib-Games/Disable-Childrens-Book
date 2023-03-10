@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class CanvasScript : MonoBehaviour
 {
-    MainScript mainScript;
+    //MainScript mainScript;
 
     void Start()
     {
-        mainScript = FindObjectOfType<MainScript>();
+        //mainScript = FindObjectOfType<MainScript>();
     }
 
     public void OnPlayButtonClick()
     {
-        mainScript.LoadNextScene();
+        SceneHandler.NextScene();
+    }
+
+    public void OnNextButtonClikc()
+    {
+        SceneHandler.NextScene();
+    }
+    public void OnPrevButtonClikc()
+    {
+        SceneHandler.PrevScene();
+    }
+    public void OnReloadButtonClikc()
+    {
+        SceneHandler.ReloadScene();
     }
 }

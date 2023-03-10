@@ -85,7 +85,7 @@ public class QuesManager : MonoBehaviour
         else
         {
             Debug.Log("There are not further question.");
-            mainScript.LoadNextScene();
+            SceneHandler.NextScene();
         }
     }
 }

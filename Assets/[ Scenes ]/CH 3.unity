@@ -2948,9 +2948,11 @@ MonoBehaviour:
   - {fileID: 1618090321}
   tapEntityAudioClip: {fileID: 0}
   nextSceneName: CH 4
+  prevSceneName: 
   sceneLifespan: 20
   canvasContainer: {fileID: 418661427}
   isQuesType: 0
+  clips: []
 --- !u!82 &3928823806686137150
 AudioSource:
   m_ObjectHideFlags: 0
