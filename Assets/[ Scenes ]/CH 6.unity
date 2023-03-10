@@ -1100,9 +1100,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1991022665, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
+    - target: {fileID: 389090762, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991022665, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181422890070864089, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
       propertyPath: m_IsActive
@@ -2654,6 +2658,7 @@ MonoBehaviour:
   sceneLifespan: 3
   isQuesType: 1
   clips: []
+  isUseSceneDelay: 1
 --- !u!114 &9096351382870948262
 MonoBehaviour:
   m_ObjectHideFlags: 0
