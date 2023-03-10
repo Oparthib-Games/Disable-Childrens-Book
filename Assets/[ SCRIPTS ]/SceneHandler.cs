@@ -7,6 +7,10 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public static void FirstScene()
+    {
+        SceneManager.LoadScene(0);
+    }
     public static void NextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

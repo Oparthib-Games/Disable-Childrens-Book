@@ -19,14 +19,23 @@ public class MainScript : MonoBehaviour
 
     public AudioClip[] clips;
 
+    Animator ANIM;
+    AudioSource audioSource;
+
+    public bool isUseSceneDelay = true;
+
     void Start()
     {
+        ANIM = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        if (ANIM != null && isUseSceneDelay)
+            ANIM.enabled = false;
+        if (audioSource != null)
+            audioSource.enabled = false;
+
         camera = Camera.main;
         isPlayingClip = false;
-        if(canvasContainer == null)
-        {
-            Debug.LogWarning("canvasContainer NOT FOUND");
-        }
+
         if(!isQuesType)
         {
             StartCoroutine(CountSceneLifespan());
@@ -40,9 +49,15 @@ public class MainScript : MonoBehaviour
 
     IEnumerator CountSceneLifespan()
     {
+        yield return new WaitForSeconds(2);
+
+        if (ANIM != null)
+            ANIM.enabled = true;
+
         yield return new WaitForSeconds(sceneLifespan);
 
-        canvasContainer.SetActive(true);
+        if(canvasContainer != null)
+            canvasContainer.SetActive(true);
     }
 
     public void highlightText(int index)

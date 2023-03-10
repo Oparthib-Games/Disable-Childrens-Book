@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/[ Scenes ]/CH 32.unity
     guid: 9113b2d81d82e2e44987ea0cf90e186e
+  - enabled: 1
+    path: Assets/[ Scenes ]/Final Page.unity
+    guid: 663883b296278a147ba6f87611e533e0
   m_configObjects: {}

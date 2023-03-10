@@ -1634,14 +1634,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2446181210159866612}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: -0.0000019371505}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9680451, y: 0.7735108, z: 0.7343689}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7750518202885549609}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!1 &2446181210159866612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,10 +1710,7 @@ MonoBehaviour:
   textHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   entities: []
   tapEntityAudioClip: {fileID: 0}
-  prevSceneName: 
-  nextSceneName: 
   sceneLifespan: 3
-  canvasContainer: {fileID: 0}
   isQuesType: 0
   clips:
   - {fileID: 8300000, guid: 6739f10286d28f14f8d56ec4371cd590, type: 3}
@@ -1726,6 +1723,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e1b73e6d68392b04ba42588383293eb7, type: 3}
   - {fileID: 8300000, guid: 321719b9ff71ae44ea525601977c3678, type: 3}
   - {fileID: 8300000, guid: 5cca9b04019408b408d942596e394b4f, type: 3}
+  isUseSceneDelay: 1
 --- !u!95 &8883146756565136972
 Animator:
   serializedVersion: 4

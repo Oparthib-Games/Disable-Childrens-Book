@@ -1,0 +1,1 @@
+ffmpeg -i transition.mov -c:v libvpx -pix_fmt yuva420p -b:v 2M -auto-alt-ref 0 -metadata:s:v:0 alpha_node="1" -c:a libvorbis output.webm

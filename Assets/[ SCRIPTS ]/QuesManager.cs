@@ -20,11 +20,14 @@ public class QuesManager : MonoBehaviour
     public AudioClip rightAnswerClip;
     public AudioClip wrongAnswerClip;
 
+    CanvasScript canvasScript;
+
     void Start()
     {
         camera = Camera.main;
         mainScript = GetComponent<MainScript>();
         tapEntityAudioClip = mainScript.tapEntityAudioClip;
+        canvasScript = GameObject.FindObjectOfType<CanvasScript>().GetComponent<CanvasScript>();
 
         if (tapEntityAudioClip == null)
         {
@@ -88,7 +91,8 @@ public class QuesManager : MonoBehaviour
         else
         {
             Debug.Log("There are not further question.");
-            SceneHandler.NextScene();
+            //SceneHandler.NextScene();
+            canvasScript.OnNextButtonClikc();
         }
     }
 }
