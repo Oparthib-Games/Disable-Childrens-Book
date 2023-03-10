@@ -255,14 +255,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.8833334
+  - time: 2.75
     functionName: highlightText
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 3.5333333
+  - time: 3.3333333
     functionName: highlightText
     data: 
     objectReferenceParameter: {fileID: 0}

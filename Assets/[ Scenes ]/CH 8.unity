@@ -447,7 +447,7 @@ MonoBehaviour:
   - {fileID: 1377571463}
   - {fileID: 1436568280}
   - {fileID: 1828116176}
-  textHighlightColor: {r: 0, g: 0, b: 0, a: 1}
+  textHighlightColor: {r: 1, g: 0.0037735105, b: 0.0037735105, a: 1}
 --- !u!82 &908509474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 126d0817a3f13c049814467f5842eb8e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9113f8cdfe0f5e4409bf981a4913d65e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1250,7 +1250,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 126d0817a3f13c049814467f5842eb8e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 420a65bf88e20ab48914f6b1a7c82049, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
