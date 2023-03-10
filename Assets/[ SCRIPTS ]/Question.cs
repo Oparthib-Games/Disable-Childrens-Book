@@ -12,8 +12,11 @@ public class Question : MonoBehaviour
 
     QuesManager quesManager;
 
+    new Camera camera;
+
     void Start()
     {
+        camera = Camera.main;
         quesManager = FindObjectOfType<QuesManager>();
         QuesManager.canAnswer = true;
     }
@@ -47,11 +50,13 @@ public class Question : MonoBehaviour
                 {
                     Debug.Log("Corrent Answer");
                     quesManager.AnswerTrigger(true);
+                    AudioSource.PlayClipAtPoint(quesManager.rightAnswerClip, camera.transform.position);
                 }
                 else
                 {
                     Debug.Log("Wrong Answer");
                     quesManager.AnswerTrigger(false);
+                    AudioSource.PlayClipAtPoint(quesManager.wrongAnswerClip, camera.transform.position);
                 }
             }
             i++;

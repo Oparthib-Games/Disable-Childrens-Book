@@ -2586,10 +2586,9 @@ MonoBehaviour:
   textHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   entities: []
   tapEntityAudioClip: {fileID: 8300000, guid: 7711dcf30b8c4834aa6ba35815dda470, type: 3}
-  nextSceneName: CH 7
   sceneLifespan: 3
-  canvasContainer: {fileID: 0}
   isQuesType: 1
+  clips: []
 --- !u!114 &9096351382870948262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2608,6 +2607,8 @@ MonoBehaviour:
   - {fileID: 698874129}
   rightAnswerGO: {fileID: 927282984}
   wrongAnswerGO: {fileID: 141360598}
+  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
 --- !u!1 &9131041521841456542
 GameObject:
   m_ObjectHideFlags: 0

@@ -723,11 +723,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
---- !u!1 &418661427 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7181422890270105162, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
-  m_PrefabInstance: {fileID: 418661426}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &475865237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,11 +2941,8 @@ MonoBehaviour:
   - {fileID: 155180124}
   - {fileID: 2110509967}
   - {fileID: 1618090321}
-  tapEntityAudioClip: {fileID: 0}
-  nextSceneName: CH 4
-  prevSceneName: 
+  tapEntityAudioClip: {fileID: 8300000, guid: 7711dcf30b8c4834aa6ba35815dda470, type: 3}
   sceneLifespan: 20
-  canvasContainer: {fileID: 418661427}
   isQuesType: 0
   clips: []
 --- !u!82 &3928823806686137150

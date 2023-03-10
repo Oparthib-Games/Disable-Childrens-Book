@@ -321,6 +321,8 @@ MonoBehaviour:
   - {fileID: 613066366}
   rightAnswerGO: {fileID: 889587082}
   wrongAnswerGO: {fileID: 1181846011}
+  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
 --- !u!114 &376547469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,10 +339,9 @@ MonoBehaviour:
   textHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   entities: []
   tapEntityAudioClip: {fileID: 8300000, guid: 7711dcf30b8c4834aa6ba35815dda470, type: 3}
-  nextSceneName: CH 7
   sceneLifespan: 3
-  canvasContainer: {fileID: 0}
   isQuesType: 1
+  clips: []
 --- !u!4 &376547470
 Transform:
   m_ObjectHideFlags: 0
@@ -2436,10 +2437,9 @@ MonoBehaviour:
   textHighlightColor: {r: 1, g: 0, b: 0, a: 1}
   entities: []
   tapEntityAudioClip: {fileID: 0}
-  nextSceneName: 
   sceneLifespan: 3
-  canvasContainer: {fileID: 0}
   isQuesType: 0
+  clips: []
 --- !u!82 &8415802860843238699
 AudioSource:
   m_ObjectHideFlags: 0

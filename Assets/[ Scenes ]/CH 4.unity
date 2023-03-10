@@ -2928,8 +2928,6 @@ MonoBehaviour:
   textHighlightColor: {r: 1, g: 0, b: 0, a: 1}
   entities: []
   tapEntityAudioClip: {fileID: 8300000, guid: 7711dcf30b8c4834aa6ba35815dda470, type: 3}
-  prevSceneName: 
-  nextSceneName: CH 5
   sceneLifespan: 3
   isQuesType: 1
   clips: []
@@ -3068,6 +3066,8 @@ MonoBehaviour:
   - {fileID: 1378357542}
   rightAnswerGO: {fileID: 1005257675}
   wrongAnswerGO: {fileID: 1255806851}
+  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
 --- !u!1 &1970847193094807150
 GameObject:
   m_ObjectHideFlags: 0

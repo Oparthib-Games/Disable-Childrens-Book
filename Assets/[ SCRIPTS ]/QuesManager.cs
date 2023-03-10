@@ -17,6 +17,9 @@ public class QuesManager : MonoBehaviour
 
     MainScript mainScript;
 
+    public AudioClip rightAnswerClip;
+    public AudioClip wrongAnswerClip;
+
     void Start()
     {
         camera = Camera.main;
@@ -59,7 +62,7 @@ public class QuesManager : MonoBehaviour
             wrongAnswerGO.SetActive(true);
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
 
         if(!isCorrent)
         {

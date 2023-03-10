@@ -2275,7 +2275,7 @@ MonoBehaviour:
   - {fileID: 240513247}
   textHighlightColor: {r: 0, g: 0, b: 0, a: 1}
   entities: []
-  tapEntityAudioClip: {fileID: 0}
+  tapEntityAudioClip: {fileID: 8300000, guid: 7711dcf30b8c4834aa6ba35815dda470, type: 3}
   sceneLifespan: 15
   isQuesType: 0
   clips: []
