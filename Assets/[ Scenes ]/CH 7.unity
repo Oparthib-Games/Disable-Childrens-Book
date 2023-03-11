@@ -2790,7 +2790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myClip: {fileID: 8300000, guid: a567b72f621d16846a99b65a385a3c30, type: 3}
   clipLength: 0
-  tapColor: {r: 1, g: 1, b: 1, a: 0}
+  tapColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8060032669843235469
 GameObject:
   m_ObjectHideFlags: 0
