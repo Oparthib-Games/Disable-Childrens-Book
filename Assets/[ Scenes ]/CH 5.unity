@@ -1215,7 +1215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485152568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.6, y: 4.31, z: 0}
+  m_LocalPosition: {x: 27.6, y: 4.109, z: 0}
   m_LocalScale: {x: 0.65849614, y: 0.65849614, z: 0.65849614}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2138,6 +2138,8 @@ MonoBehaviour:
   isQuesType: 0
   clips: []
   isUseSceneDelay: 1
+  hasShironam: 1
+  shironamClip: {fileID: 8300000, guid: d0558382ab04211409834fe217cda19b, type: 3}
 --- !u!1 &1353660644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3535,7 +3537,7 @@ SpriteRenderer:
   m_SortingLayerID: -1114036225
   m_SortingLayer: 2
   m_SortingOrder: 15
-  m_Sprite: {fileID: 3226851884101750442, guid: e5e655440df88f7419f28c781275425c, type: 3}
+  m_Sprite: {fileID: -1136570690, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3861,8 +3863,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3002272822816494642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0695016, y: 0.017279265, z: 0}
-  m_LocalScale: {x: 1.1498758, y: 1.1498758, z: 1.1498758}
+  m_LocalPosition: {x: 0.0695016, y: 0.04, z: 0}
+  m_LocalScale: {x: 1.8743868, y: 1.8743868, z: 1.8743868}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 485152569}

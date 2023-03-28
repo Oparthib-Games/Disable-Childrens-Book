@@ -3358,6 +3358,8 @@ MonoBehaviour:
   isQuesType: 0
   clips: []
   isUseSceneDelay: 1
+  hasShironam: 1
+  shironamClip: {fileID: 8300000, guid: 3e6208e276280fd458c323f8afb331dc, type: 3}
 --- !u!82 &1670789330336701868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3958,7 +3960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5477788663073628629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.017499924, y: 10.03, z: 0}
+  m_LocalPosition: {x: -0.017499924, y: 9.793, z: 0}
   m_LocalScale: {x: 0.5979, y: 0.5979, z: 0.5979}
   m_ConstrainProportionsScale: 0
   m_Children:

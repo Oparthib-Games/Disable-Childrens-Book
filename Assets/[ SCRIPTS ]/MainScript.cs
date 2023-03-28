@@ -11,8 +11,8 @@ public class MainScript : MonoBehaviour
     public Entity[] entities;
     public AudioClip tapEntityAudioClip;
 
-    public float sceneLifespan = 3f;
-    GameObject canvasContainer;
+    public float sceneLifespan = 3f; // ! NOT NEEDED
+    GameObject canvasContainer; // ! NOT NEEDED
     public bool isQuesType;
 
     new Camera camera;
@@ -23,11 +23,14 @@ public class MainScript : MonoBehaviour
     AudioSource audioSource;
 
     public bool isUseSceneDelay = true;
+    public bool hasShironam;
+    public AudioClip shironamClip;
 
     void Start()
     {
         ANIM = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+
         if (ANIM != null && isUseSceneDelay)
             ANIM.enabled = false;
         if (audioSource != null)
@@ -51,13 +54,19 @@ public class MainScript : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
 
+        if(hasShironam)
+        {
+            AudioSource.PlayClipAtPoint(shironamClip, camera.transform.position);
+            yield return new WaitForSeconds(shironamClip.length + 1);
+        }
+
         if (ANIM != null)
             ANIM.enabled = true;
 
-        yield return new WaitForSeconds(sceneLifespan);
+        //yield return new WaitForSeconds(sceneLifespan);
 
-        if(canvasContainer != null)
-            canvasContainer.SetActive(true);
+        //if(canvasContainer != null)
+        //    canvasContainer.SetActive(true);
     }
 
     public void highlightText(int index)
