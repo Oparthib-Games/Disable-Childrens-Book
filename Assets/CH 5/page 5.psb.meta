@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Layer 13
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 360, y: 1449}
+    uvTransform: {x: 811, y: 3962}
+    spritePosition: {x: 451, y: 2513}
   - name: Cloud 01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -240, y: 1317}
+    uvTransform: {x: 4, y: 3702}
+    spritePosition: {x: 244, y: 2385}
   - name: Layer 16
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2244, y: -1436}
+    uvTransform: {x: 2419, y: 193}
+    spritePosition: {x: 175, y: 1629}
   - name: Layer 12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2677, y: -591}
+    uvTransform: {x: 3283, y: 193}
+    spritePosition: {x: 606, y: 784}
   - name: Water Wave
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1774, y: -30}
+    uvTransform: {x: 2419, y: 4}
+    spritePosition: {x: 645, y: 34}
   - name: Cloud 01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1193, y: -16}
+    uvTransform: {x: 1274, y: 2150}
+    spritePosition: {x: 81, y: 2166}
   - name: Cloud 02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 769, y: 480}
+    uvTransform: {x: 1274, y: 2353}
+    spritePosition: {x: 505, y: 1873}
   - name: Duck Up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1123, y: -87}
+    uvTransform: {x: 1274, y: 1899}
+    spritePosition: {x: 151, y: 1986}
   - name: Girl Up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 656, y: 54}
+    uvTransform: {x: 1274, y: 1229}
+    spritePosition: {x: 618, y: 1175}
   - name: Girl Down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1173, y: 41}
+    uvTransform: {x: 1274, y: 542}
+    spritePosition: {x: 101, y: 501}
   - name: Cloud 03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 5, y: 1578}
+    uvTransform: {x: 811, y: 3702}
+    spritePosition: {x: 806, y: 2124}
   - name: Duck Down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -342,7 +355,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2095, y: 50}
+    uvTransform: {x: 2965, y: 193}
+    spritePosition: {x: 870, y: 143}
   - name: Water
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -363,7 +377,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1149, y: 4}
+    uvTransform: {x: 1274, y: 4}
+    spritePosition: {x: 125, y: 0}
   - name: Yellow Cloud
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -384,7 +399,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2525}
+    uvTransform: {x: 4, y: 2836}
+    spritePosition: {x: 0, y: 311}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -406,6 +422,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

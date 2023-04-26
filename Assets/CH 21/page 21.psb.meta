@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Fox 2
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2568, y: -1174}
+    uvTransform: {x: 3012, y: 4}
+    spritePosition: {x: 444, y: 1178}
   - name: Fox 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2955, y: -507}
+    uvTransform: {x: 3012, y: 719}
+    spritePosition: {x: 57, y: 1226}
   - name: Front Leaves
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -382, y: 1574}
+    uvTransform: {x: 4, y: 2836}
+    spritePosition: {x: 386, y: 1262}
   - name: Tree
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1217, y: -19}
+    uvTransform: {x: 1274, y: 4}
+    spritePosition: {x: 57, y: 23}
   - name: Back Leaves
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 795, y: 1577}
+    uvTransform: {x: 1274, y: 2719}
+    spritePosition: {x: 479, y: 1142}
   - name: Layer 10 copy 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 151, y: 1672}
+    uvTransform: {x: 850, y: 3437}
+    spritePosition: {x: 699, y: 1765}
   - name: Layer 10 copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1866, y: 189}
+    uvTransform: {x: 2391, y: 1525}
+    spritePosition: {x: 525, y: 1336}
   - name: Layer 10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 209, y: 2130}
+    uvTransform: {x: 850, y: 2836}
+    spritePosition: {x: 641, y: 706}
   - name: Layer 1 copy 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2082, y: -506}
+    uvTransform: {x: 2391, y: 4}
+    spritePosition: {x: 309, y: 510}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -301,6 +312,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
@@ -440,7 +452,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: bbf51dca10829e6439023a28e75c0862
     layerID: 165
     mosaicPosition: {x: 0, y: 0}
     flatten: 0

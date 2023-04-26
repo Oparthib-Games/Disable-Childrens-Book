@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Title
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 914, y: -749}
+    uvTransform: {x: 1274, y: 1782}
+    spritePosition: {x: 360, y: 2531}
   - name: Text Up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 286, y: 2231}
+    uvTransform: {x: 811, y: 3704}
+    spritePosition: {x: 525, y: 1473}
   - name: Text Down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 280, y: 3624}
+    uvTransform: {x: 811, y: 3896}
+    spritePosition: {x: 531, y: 272}
   - name: Cloud Title
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -219, y: 1284}
+    uvTransform: {x: 4, y: 3704}
+    spritePosition: {x: 223, y: 2420}
   - name: Ball Down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1124, y: 593}
+    uvTransform: {x: 1846, y: 1216}
+    spritePosition: {x: 722, y: 623}
   - name: Ball Up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1538, y: -118}
+    uvTransform: {x: 1846, y: 1499}
+    spritePosition: {x: 308, y: 1617}
   - name: Boy Down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1158, y: -467}
+    uvTransform: {x: 1274, y: 4}
+    spritePosition: {x: 116, y: 471}
   - name: Grass 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 692, y: 301}
+    uvTransform: {x: 1274, y: 1216}
+    spritePosition: {x: 582, y: 915}
   - name: Boy Up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 824, y: -1029}
+    uvTransform: {x: 1274, y: 716}
+    spritePosition: {x: 450, y: 1745}
   - name: Grass 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1180, y: -595}
+    uvTransform: {x: 1274, y: 1499}
+    spritePosition: {x: 94, y: 2094}
   - name: Yellow Cloud
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2526}
+    uvTransform: {x: 4, y: 2836}
+    spritePosition: {x: 0, y: 310}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -343,6 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

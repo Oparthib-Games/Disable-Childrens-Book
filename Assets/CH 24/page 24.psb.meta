@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Grass
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 771, y: 888}
+    uvTransform: {x: 1274, y: 888}
+    spritePosition: {x: 503, y: 0}
   - name: Leaves 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1474, y: -1171}
+    uvTransform: {x: 1673, y: 1257}
+    spritePosition: {x: 199, y: 2428}
   - name: Leaves4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 697, y: -330}
+    uvTransform: {x: 1274, y: 2098}
+    spritePosition: {x: 577, y: 2428}
   - name: Leaves 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 756, y: 45}
+    uvTransform: {x: 1274, y: 2465}
+    spritePosition: {x: 518, y: 2420}
   - name: Leaves 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 952, y: -1119}
+    uvTransform: {x: 1274, y: 1257}
+    spritePosition: {x: 322, y: 2376}
   - name: Leaves 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1182, y: -611}
+    uvTransform: {x: 1274, y: 1713}
+    spritePosition: {x: 92, y: 2324}
   - name: Owls
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1274, y: -1697}
+    uvTransform: {x: 1274, y: 4}
+    spritePosition: {x: 0, y: 1701}
   - name: Monkeys
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2697}
+    uvTransform: {x: 4, y: 2836}
+    spritePosition: {x: 0, y: 139}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -280,6 +290,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

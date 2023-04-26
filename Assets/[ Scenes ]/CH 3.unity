@@ -673,6 +673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3595043920701302698, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f273487566c74464bb853e0ca68db415, type: 2}
     - target: {fileID: 7181422890270105162, guid: d74923f241ae74740ba87b6d6c0c064b, type: 3}
       propertyPath: m_Name
       value: CanvasContainer
@@ -7860,7 +7864,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &3928823806686137151
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7877,7 +7881,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3980480438526203404
 GameObject:
   m_ObjectHideFlags: 0
