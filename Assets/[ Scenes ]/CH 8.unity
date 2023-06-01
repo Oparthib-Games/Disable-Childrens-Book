@@ -413,7 +413,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 646679049, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -497,7 +497,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 332931693, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -662,7 +662,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9113f8cdfe0f5e4409bf981a4913d65e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 18fbcd3ceeed89f49a92c6e423a8bcb6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.591
   m_Pitch: 1
@@ -1398,7 +1398,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1582087562, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1603,7 +1603,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1716529867, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2023,7 +2023,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1863382206, guid: 02245b92c2287b940815c18808d24ab1, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2236,7 +2236,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 420a65bf88e20ab48914f6b1a7c82049, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 09549cdc93fb0ed4299fdb66e83be7e0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.591
   m_Pitch: 1
@@ -2958,5 +2958,5 @@ MonoBehaviour:
   - {fileID: 908509473}
   rightAnswerGO: {fileID: 927282984}
   wrongAnswerGO: {fileID: 141360598}
-  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
-  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
+  rightAnswerClip: {fileID: 8300000, guid: 55479b1a447195d4abb062d640a9faa0, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 9bcc5e3c5c60388449266555b644d7fb, type: 3}

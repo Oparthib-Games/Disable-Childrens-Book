@@ -59,12 +59,12 @@ public class QuesManager : MonoBehaviour
         if (isCorrent)
         {
             rightAnswerGO.SetActive(true);
-            AudioSource.PlayClipAtPoint(rightAnswerClip, camera.transform.position);
+            AudioSource.PlayClipAtPoint(rightAnswerClip, camera.transform.position, 0.5f);
         }
         else
         {
             wrongAnswerGO.SetActive(true);
-            AudioSource.PlayClipAtPoint(wrongAnswerClip, camera.transform.position);
+            AudioSource.PlayClipAtPoint(wrongAnswerClip, camera.transform.position, 0.5f);
         }
 
         yield return new WaitForSeconds(3f);

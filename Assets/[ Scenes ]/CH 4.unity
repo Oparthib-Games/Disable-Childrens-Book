@@ -1119,7 +1119,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &707851725
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1136,7 +1136,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &708662950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,7 +1682,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1086647481
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1698,7 +1699,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1101975758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2218,7 +2220,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1378357544
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2235,7 +2237,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1405574896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,7 +3104,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1937012545464501089
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3118,7 +3121,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1937012545464501090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3138,8 +3142,8 @@ MonoBehaviour:
   - {fileID: 1378357542}
   rightAnswerGO: {fileID: 1005257675}
   wrongAnswerGO: {fileID: 1255806851}
-  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
-  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
+  rightAnswerClip: {fileID: 8300000, guid: 55479b1a447195d4abb062d640a9faa0, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 9bcc5e3c5c60388449266555b644d7fb, type: 3}
 --- !u!1 &1970847193094807150
 GameObject:
   m_ObjectHideFlags: 0

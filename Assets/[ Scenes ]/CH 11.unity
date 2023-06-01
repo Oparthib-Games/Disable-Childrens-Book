@@ -695,7 +695,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &597387281
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -712,7 +712,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &655061627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,8 +1622,8 @@ MonoBehaviour:
   - {fileID: 2055924571}
   rightAnswerGO: {fileID: 1135720907}
   wrongAnswerGO: {fileID: 849853943}
-  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
-  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
+  rightAnswerClip: {fileID: 8300000, guid: 55479b1a447195d4abb062d640a9faa0, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 9bcc5e3c5c60388449266555b644d7fb, type: 3}
 --- !u!114 &1003107297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,6 +1650,8 @@ MonoBehaviour:
   isQuesType: 1
   clips: []
   isUseSceneDelay: 1
+  hasShironam: 0
+  shironamClip: {fileID: 0}
 --- !u!82 &1003107298
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1747,7 +1750,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1003107299
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1764,7 +1767,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1003107300
 Transform:
   m_ObjectHideFlags: 0
@@ -3312,7 +3316,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1792978615
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3329,7 +3333,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1797462383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4395,7 +4400,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &2055924574
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4412,7 +4417,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2141977519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,6 +4585,8 @@ MonoBehaviour:
   isQuesType: 0
   clips: []
   isUseSceneDelay: 1
+  hasShironam: 0
+  shironamClip: {fileID: 0}
 --- !u!82 &1182032836072562254
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4677,7 +4685,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1182032836072562255
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4694,7 +4702,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1229534575181382682
 Transform:
   m_ObjectHideFlags: 0

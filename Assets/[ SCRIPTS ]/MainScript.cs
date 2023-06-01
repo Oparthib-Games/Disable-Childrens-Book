@@ -26,6 +26,8 @@ public class MainScript : MonoBehaviour
     public bool hasShironam;
     public AudioClip shironamClip;
 
+    [Range(0, 1)] public float shironamVolume = 1;
+
     void Start()
     {
         ANIM = GetComponent<Animator>();
@@ -56,7 +58,7 @@ public class MainScript : MonoBehaviour
 
         if(hasShironam)
         {
-            AudioSource.PlayClipAtPoint(shironamClip, camera.transform.position);
+            AudioSource.PlayClipAtPoint(shironamClip, camera.transform.position, shironamVolume);
             yield return new WaitForSeconds(shironamClip.length + 1);
         }
 

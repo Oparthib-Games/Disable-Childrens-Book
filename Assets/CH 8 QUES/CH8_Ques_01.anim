@@ -64,7 +64,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 4
+        time: 5.5
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -107,7 +107,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4
+    m_StopTime: 5.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -145,7 +145,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 4
+        time: 5.5
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -262,21 +262,21 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 2.6833334
+  - time: 2.75
     functionName: highlightText
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 2
     messageOptions: 0
-  - time: 3.2666667
+  - time: 3.8833334
     functionName: highlightText
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 3
     messageOptions: 0
-  - time: 3.6666667
+  - time: 4.5666666
     functionName: highlightText
     data: 
     objectReferenceParameter: {fileID: 0}

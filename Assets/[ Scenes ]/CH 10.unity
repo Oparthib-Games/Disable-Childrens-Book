@@ -321,8 +321,8 @@ MonoBehaviour:
   - {fileID: 613066366}
   rightAnswerGO: {fileID: 889587082}
   wrongAnswerGO: {fileID: 1181846011}
-  rightAnswerClip: {fileID: 8300000, guid: be81e998ea61e4842ab78aff6af45ec2, type: 3}
-  wrongAnswerClip: {fileID: 8300000, guid: 2418c35f8972949449e21f9449132f8c, type: 3}
+  rightAnswerClip: {fileID: 8300000, guid: 55479b1a447195d4abb062d640a9faa0, type: 3}
+  wrongAnswerClip: {fileID: 8300000, guid: 9bcc5e3c5c60388449266555b644d7fb, type: 3}
 --- !u!114 &376547469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -716,7 +716,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &613066368
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -733,7 +733,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &889587082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3507921854204553906, guid: 67255aeee40ad69439f5b5aa92a2859c, type: 3}
@@ -2613,7 +2614,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &8415802860843238700
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2630,4 +2631,5 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
